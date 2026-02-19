@@ -12,6 +12,7 @@ struct ContentView: View {
     var body: some View {
         VStack {
             ChromaticIcons.SwiftUI.sms.foregroundStyle(.green)
+            Image(.lock5)
             Text("Hello, world!")
         }
         .padding()
